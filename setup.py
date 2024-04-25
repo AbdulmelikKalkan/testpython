@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='testpython',
     version='0.1.0',
-    packages=['testpython'],  # Paketinizin içerdiği modülleri listeleyin
+    packages=find_packages(),,  # Paketinizin içerdiği modülleri listeleyin
     url='https://github.com/AbdulmelikKalkan/testpython',  # GitHub deponuzun URL'sini girin
     license='MIT',
     author='Abdulmelik Kalkan',
